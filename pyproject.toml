@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projet-fil-rouge"
+version = "0.1.0"
+description = "Prévision des ventes e-commerce avec ML et séries temporelles"
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "scikit-learn==1.5.0",
+    "joblib",
+    "statsmodels",
+    "prophet",
+    "xgboost",
+    "streamlit",
+    "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
