@@ -70,7 +70,7 @@ git clone https://github.com/Cedric-LEBE/Fil-Rouge.git
 cd Fil-Rouge
 
 # Créer un environnement virtuel
-python -m venv .venv
+python3 -m venv .venv
 
 # Activer l'environnement virtuel
 # Sur Linux/Mac:
@@ -178,15 +178,6 @@ Les modèles sont évalués selon :
 - **RMSE** (Root Mean Square Error) - Erreur quadratique moyenne
 - **MAPE** (Mean Absolute Percentage Error) - Erreur en pourcentage
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Commiter vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
-
 ## 📝 Contexte Métier
 
 Dans un contexte e-commerce, la capacité à anticiper les ventes futures est un levier stratégique majeur pour :
@@ -197,11 +188,6 @@ Dans un contexte e-commerce, la capacité à anticiper les ventes futures est un
 
 Les ventes e-commerce sont influencées par de nombreux facteurs : saisonnalité, comportements clients, types de produits, modes de paiement, localisation géographique, et conditions de livraison.
 
-## 📄 Licence
-
-Ce projet est un projet académique dans le cadre d'une formation en Data Science et Machine Learning.
-
-## 👥 Auteur
 
 Développé dans le cadre du projet Fil Rouge de formation en Data Science.
 
